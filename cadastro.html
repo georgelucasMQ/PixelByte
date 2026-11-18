@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro | PixelByte</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>PixelByte</h1>
+    <p class="slogan">Crie seu perfil de jogador</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>&gt; Novo Cadastro</h2>
+
+      <form class="formulario" action="#" method="post">
+
+        <label for="nome">Nome completo</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="voce@email.com" required>
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" placeholder="****" required>
+
+        <label for="nascimento">Data de nascimento</label>
+        <input type="date" id="nascimento" name="nascimento" required>
+
+        <label for="preferencia">Preferência de produtos</label>
+        <select id="preferencia" name="preferencia">
+          <option value="mouse">Mouses</option>
+          <option value="teclado">Teclados</option>
+          <option value="audio">Headsets e áudio</option>
+          <option value="monitor">Monitores</option>
+          <option value="armazenamento">Armazenamento</option>
+        </select>
+
+        <button type="submit">Cadastrar</button>
+      </form>
+
+      <p class="voltar"><a href="index.html">&lt; Voltar para a loja</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 PixelByte. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
